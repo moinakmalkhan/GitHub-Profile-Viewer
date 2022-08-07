@@ -10,8 +10,8 @@ Website build with React.js to view any GitHub profile
 
 How to use
 - After running you see a website look like this
-![View](https://github.com/moinakmalkhan/GitHub-Profile-Viewer/blob/master/screenshots/view.png?raw=true)
+![View](https://github.com/moinakmalkhan/GitHub-Profile-Viewer/blob/master/screenshots/webiste.png?raw=true)
 
-- In text field type your GitHub username to view your profile
+- In text field type your GitHub username to view your profile and click on search button
 ![Profile View](https://github.com/moinakmalkhan/GitHub-Profile-Viewer/blob/master/screenshots/profile.png?raw=true)
 
