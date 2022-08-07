@@ -1,0 +1,19 @@
+{
+   "users": [
+        {
+            "id": 1,
+            "username": "majid",
+            "password": "majidpass"
+        },
+        {
+            "id": 2,
+            "username": "hamid",
+            "password": "hamidpass"
+        },
+        {
+            "id": 3,
+            "username": "faizan",
+            "password": "faizanpass"
+        }
+    ]
+}

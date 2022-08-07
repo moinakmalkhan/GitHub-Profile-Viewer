@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--bg-color) !important;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+:root{
+    --monsrrat-font: 'Montserrat', sans-serif;
+    --roboto: 'Roboto Condensed', sans-serif;
+    --bg-color: #141c2f; 
+    --white-color: #fff;
+    --light-blue: #1f2a48;
+}
+
+.git-container{
+    min-height: 100vh;
+    padding: 8rem 0rem 5rem 0rem;
+}
+.git-single {
+    padding: 20px;
+}
+
+form {
+    position: relative;
+}
+form input{
+    padding: .75rem 2.9rem;
+    font-size: 1.05rem;
+    letter-spacing: .3px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: var(--white-color);
+    outline: none;
+    border: none;
+    background-color: var(--light-blue);
+    width: 100%;
+    border-radius: 6px;
+    position: relative;
+}
+form i{
+    color: #225498;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+}
+
+form button{
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--white-color);
+    background-color: #007aff;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-family: var(--monsrrat-font);
+    position: absolute;
+    right: .3rem;
+    top: .26rem;
+}
+
+.user-bio {
+    margin-top: 1.5rem;
+    border-radius: 6px;
+    padding: 40px 10px;
+    background-color: var(--light-blue);
+}
+.user-bio .user-img img{
+    border-radius: 50%;
+    background-color: var(--white-color);
+    height: 230px;
+    width: 230px;
+    overflow: hidden;
+}
+
+.user-bio-content h2{
+    font-size: 1.9rem;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: var(--white-color);
+    margin-bottom: 0;
+}
+
+.user-bio-content p{
+    font-size: .95rem;
+    font-weight: 400;
+    color: var(--white-color);
+    font-family: var(--roboto);
+    margin-bottom: 0;
+}
+.user-bio-content .bio{
+    font-size: .9rem;
+    font-weight: 300;
+    word-spacing: 1px;
+    letter-spacing: .4px;
+    color: #9aa2b9;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+
+.user-bio .error{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--white-color);
+    letter-spacing: .4px;
+}
+
+.follower{
+    background-color: var(--bg-color);
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+.follower h3{
+    font-size: 1rem;
+    letter-spacing: .3px;
+    font-family: var(--roboto);
+    font-weight: 400;
+    color: var(--white-color);
+}
+.follower p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-bottom: 0;
+}
+
+
+.location p{
+    color: var(--white-color);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.location p i{
+    color: #007aff;
+    margin-right: .8rem;
+}
+
+
+
+@media (max-width: 420px){
+    .user-bio{
+        padding: 40px 0px;
+    }
+    .user-bio-content h2{
+        font-size: 2rem;
+    }
+    .user-bio-content .bio{
+        font-size: .85rem;
+    }
+    .user-bio-content p{
+        font-size: .9rem;
+    }
+    .follower {
+        padding: 20px;
+    }
+    .follower h3{
+        font-size: .95rem;
+    }
+    .linkes a{
+        font-size: .9rem;
+    }
+    .linkes span i{
+        font-size: 1rem;
+        color: #9aa2b9;
+    }
+}
